@@ -1,0 +1,104 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+.left{
+flex: .8;
+padding-left: 2rem;
+display: flex;
+flex-direction: row;
+}
+
+.right{
+flex: .2;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+
+}
+
+.profile{
+    cursor: pointer;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: aqua;
+    
+
+}
+.profile img{
+        height:50px;
+    width:50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logout{
+    cursor: pointer;
+}
+
+.inputfield{
+    margin-left:200px;
+    height:20px;
+    width:750px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid snow;
+    padding-inline: 1.2rem;
+    padding-block: 1.4rem;
+    font-size: 20px;
+}
+
+.findBtn{
+    margin-left: 1.2rem;
+    height:40px;
+    width:80px;
+    border-radius: 10px;
+   cursor: pointer;
+   /* background-color: #8B5CF6; */
+   background-color: #6366F1;
+    
+   color: white;
+   border: none;
+   outline: none;
+   font-size:20px;
+    
+}
+
+.findBtn:active{
+    transform: scale(1.04);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

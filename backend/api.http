@@ -1,0 +1,79 @@
+### Create Playlist
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "name":"Raktim Nandi",
+  "username":"R@ktim",
+  "email":"raktimnandi35@gmail.com",
+  "password":"Raktim@323911"
+}
+
+
+###
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email":"raktimnandi35@gmail.com",
+  "password":"Raktim@323911"
+}
+
+###
+POST http://localhost:8080/makePlaylist
+Content-Type: application/json
+
+{
+  "token":"9e4b87a2b7280849e767f375fa481bdbfabdc3e8a248fc39b61b5357914d7d51",
+  "playlistname":"Chill"
+}
+
+###
+GET http://localhost:8080/getSong?songname=Matushka%20Phonk
+
+
+###
+POST http://localhost:8080/playlists/69fb7ffb8606b7708e2f1542/songs
+Content-Type: application/json
+
+{
+  "songId": "69fb806eb4cc771b3546d4e5"
+}
+
+###
+GET http://localhost:8080/playlists/6a0da6651e1821e9096827b0/songs
+
+
+###
+GET http://localhost:8080/getAboutUser?token=cc14ae9dad65decfda6837d24bc31a38cacc530ef9ea0d95a2d075e95a5e9503
+
+
+###
+GET http://localhost:8080/playlists/6a0da6651e1821e9096827b0/songs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

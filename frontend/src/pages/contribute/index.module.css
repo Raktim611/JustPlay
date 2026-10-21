@@ -1,0 +1,185 @@
+
+.contri{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    height: 100vh;
+    
+    
+}
+
+.contribution{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    width:600px;
+    height:500px;
+    align-items: center;
+    border: 1px solid rgb(60, 60, 71);
+    border-radius: 20px;
+    
+    box-shadow: 0 4px 15px rgba(13, 107, 184, 0.078);
+    background: linear-gradient(135deg,#5179c8, #650e6a);
+    
+}
+.contribution input{
+    
+    border-radius:10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    width:50%;
+    height:30px;
+    padding-inline: 1.2rem;
+    padding-block: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: #1e293b;
+    box-sizing: border-box;
+    color: white;
+    transition: .4s;
+  
+}
+.contribution input::placeholder{
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+.contribution input:hover{
+box-shadow: 0px 6px  15px  rgba(255,255,255, 0.5);
+
+}
+
+
+.fileUpload {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+  
+}
+
+.fileUpload:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+
+.contribution h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.contribution label{
+    cursor: pointer;
+}
+
+.submit{
+    margin-left:350px;
+    border-radius: 10px;
+    cursor: pointer;
+    height:50px;
+    width:80px;
+    text-align: center;
+    background: linear-gradient(135deg,#8b5cf6,#682ab5);
+    transition: .3s;
+    box-shadow: 0 4px 15px rgba(104,39,188,0.500);
+}
+.submit:hover{
+    transform: translateY(-8px) scale(1.06);
+    box-shadow: 0 4px 15px rgba(104, 39, 188, 0.632);
+}
+.submit p{
+    padding-top:15px;
+}
+
+.done{
+    margin-left:50px;
+    border-radius: 10px;
+    cursor: pointer;
+    height:50px;
+    width:60px;
+    text-align: center;
+    background: linear-gradient(135deg,#8b5cf6,#682ab5);
+    transition: .3s;
+}
+.done:hover{
+     transform: translateY(-8px) scale(1.06)
+}
+.done p{
+    padding-top: 10px;
+}
+
+.finalUpload{
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
